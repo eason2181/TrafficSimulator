@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5EFF7132437A6D1003B4EE3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF7122437A6D1003B4EE3 /* main.cpp */; };
+		A5EFF7262437A73E003B4EE3 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF7192437A73D003B4EE3 /* Vehicle.cpp */; };
+		A5EFF7272437A73E003B4EE3 /* Street.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF71A2437A73D003B4EE3 /* Street.cpp */; };
+		A5EFF7282437A73E003B4EE3 /* TrafficSimulator-Final.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF71B2437A73D003B4EE3 /* TrafficSimulator-Final.cpp */; };
+		A5EFF7292437A73E003B4EE3 /* Graphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF71C2437A73D003B4EE3 /* Graphics.cpp */; };
+		A5EFF72A2437A73E003B4EE3 /* TrafficObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF7202437A73D003B4EE3 /* TrafficObject.cpp */; };
+		A5EFF72B2437A73E003B4EE3 /* Intersection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF7212437A73D003B4EE3 /* Intersection.cpp */; };
+		A5EFF72C2437A73E003B4EE3 /* TrafficLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF7222437A73E003B4EE3 /* TrafficLight.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5EFF70D2437A6D1003B4EE3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5EFF70F2437A6D1003B4EE3 /* TrafficSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TrafficSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EFF7122437A6D1003B4EE3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A5EFF7192437A73D003B4EE3 /* Vehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vehicle.cpp; path = ../src/Vehicle.cpp; sourceTree = "<group>"; };
+		A5EFF71A2437A73D003B4EE3 /* Street.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Street.cpp; path = ../src/Street.cpp; sourceTree = "<group>"; };
+		A5EFF71B2437A73D003B4EE3 /* TrafficSimulator-Final.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "TrafficSimulator-Final.cpp"; path = "../src/TrafficSimulator-Final.cpp"; sourceTree = "<group>"; };
+		A5EFF71C2437A73D003B4EE3 /* Graphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Graphics.cpp; path = ../src/Graphics.cpp; sourceTree = "<group>"; };
+		A5EFF71D2437A73D003B4EE3 /* Intersection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Intersection.h; path = ../src/Intersection.h; sourceTree = "<group>"; };
+		A5EFF71E2437A73D003B4EE3 /* TrafficObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrafficObject.h; path = ../src/TrafficObject.h; sourceTree = "<group>"; };
+		A5EFF71F2437A73D003B4EE3 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicle.h; path = ../src/Vehicle.h; sourceTree = "<group>"; };
+		A5EFF7202437A73D003B4EE3 /* TrafficObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TrafficObject.cpp; path = ../src/TrafficObject.cpp; sourceTree = "<group>"; };
+		A5EFF7212437A73D003B4EE3 /* Intersection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Intersection.cpp; path = ../src/Intersection.cpp; sourceTree = "<group>"; };
+		A5EFF7222437A73E003B4EE3 /* TrafficLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TrafficLight.cpp; path = ../src/TrafficLight.cpp; sourceTree = "<group>"; };
+		A5EFF7232437A73E003B4EE3 /* Street.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Street.h; path = ../src/Street.h; sourceTree = "<group>"; };
+		A5EFF7242437A73E003B4EE3 /* TrafficLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrafficLight.h; path = ../src/TrafficLight.h; sourceTree = "<group>"; };
+		A5EFF7252437A73E003B4EE3 /* Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Graphics.h; path = ../src/Graphics.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5EFF70C2437A6D1003B4EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5EFF7062437A6D1003B4EE3 = {
+			isa = PBXGroup;
+			children = (
+				A5EFF71C2437A73D003B4EE3 /* Graphics.cpp */,
+				A5EFF7252437A73E003B4EE3 /* Graphics.h */,
+				A5EFF7212437A73D003B4EE3 /* Intersection.cpp */,
+				A5EFF71D2437A73D003B4EE3 /* Intersection.h */,
+				A5EFF71A2437A73D003B4EE3 /* Street.cpp */,
+				A5EFF7232437A73E003B4EE3 /* Street.h */,
+				A5EFF7222437A73E003B4EE3 /* TrafficLight.cpp */,
+				A5EFF7242437A73E003B4EE3 /* TrafficLight.h */,
+				A5EFF7202437A73D003B4EE3 /* TrafficObject.cpp */,
+				A5EFF71E2437A73D003B4EE3 /* TrafficObject.h */,
+				A5EFF71B2437A73D003B4EE3 /* TrafficSimulator-Final.cpp */,
+				A5EFF7192437A73D003B4EE3 /* Vehicle.cpp */,
+				A5EFF71F2437A73D003B4EE3 /* Vehicle.h */,
+				A5EFF7112437A6D1003B4EE3 /* TrafficSimulator */,
+				A5EFF7102437A6D1003B4EE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5EFF7102437A6D1003B4EE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5EFF70F2437A6D1003B4EE3 /* TrafficSimulator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5EFF7112437A6D1003B4EE3 /* TrafficSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				A5EFF7122437A6D1003B4EE3 /* main.cpp */,
+			);
+			path = TrafficSimulator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5EFF70E2437A6D1003B4EE3 /* TrafficSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EFF7162437A6D1003B4EE3 /* Build configuration list for PBXNativeTarget "TrafficSimulator" */;
+			buildPhases = (
+				A5EFF70B2437A6D1003B4EE3 /* Sources */,
+				A5EFF70C2437A6D1003B4EE3 /* Frameworks */,
+				A5EFF70D2437A6D1003B4EE3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrafficSimulator;
+			productName = TrafficSimulator;
+			productReference = A5EFF70F2437A6D1003B4EE3 /* TrafficSimulator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5EFF7072437A6D1003B4EE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Eason Zhang";
+				TargetAttributes = {
+					A5EFF70E2437A6D1003B4EE3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A5EFF70A2437A6D1003B4EE3 /* Build configuration list for PBXProject "TrafficSimulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5EFF7062437A6D1003B4EE3;
+			productRefGroup = A5EFF7102437A6D1003B4EE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5EFF70E2437A6D1003B4EE3 /* TrafficSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5EFF70B2437A6D1003B4EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EFF72C2437A73E003B4EE3 /* TrafficLight.cpp in Sources */,
+				A5EFF7272437A73E003B4EE3 /* Street.cpp in Sources */,
+				A5EFF7282437A73E003B4EE3 /* TrafficSimulator-Final.cpp in Sources */,
+				A5EFF72B2437A73E003B4EE3 /* Intersection.cpp in Sources */,
+				A5EFF72A2437A73E003B4EE3 /* TrafficObject.cpp in Sources */,
+				A5EFF7262437A73E003B4EE3 /* Vehicle.cpp in Sources */,
+				A5EFF7292437A73E003B4EE3 /* Graphics.cpp in Sources */,
+				A5EFF7132437A6D1003B4EE3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5EFF7142437A6D1003B4EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A5EFF7152437A6D1003B4EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A5EFF7172437A6D1003B4EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5EFF7182437A6D1003B4EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5EFF70A2437A6D1003B4EE3 /* Build configuration list for PBXProject "TrafficSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EFF7142437A6D1003B4EE3 /* Debug */,
+				A5EFF7152437A6D1003B4EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5EFF7162437A6D1003B4EE3 /* Build configuration list for PBXNativeTarget "TrafficSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EFF7172437A6D1003B4EE3 /* Debug */,
+				A5EFF7182437A6D1003B4EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5EFF7072437A6D1003B4EE3 /* Project object */;
+}

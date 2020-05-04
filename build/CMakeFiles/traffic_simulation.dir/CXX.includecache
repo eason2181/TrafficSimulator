@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/Intersection.cpp
+iostream
+-
+thread
+-
+chrono
+-
+future
+-
+random
+-
+Street.h
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/Street.h
+Intersection.h
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/Intersection.h
+Vehicle.h
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/Vehicle.h
+
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/Intersection.h
+vector
+-
+future
+-
+mutex
+-
+memory
+-
+TrafficObject.h
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/TrafficObject.h
+
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/Street.h
+TrafficObject.h
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/TrafficObject.h
+
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/TrafficObject.h
+vector
+-
+thread
+-
+mutex
+-
+
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/Vehicle.cpp
+iostream
+-
+random
+-
+Street.h
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/Street.h
+Intersection.h
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/Intersection.h
+Vehicle.h
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/Vehicle.h
+
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/Vehicle.h
+TrafficObject.h
+/Users/easonzhang/Documents/udacity Cpp ND/CppND-Program-a-Concurrent-Traffic-Simulation-master/src/TrafficObject.h
+
