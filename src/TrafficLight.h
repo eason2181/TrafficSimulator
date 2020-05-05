@@ -40,11 +40,11 @@ public:
     TrafficLight();
     ~TrafficLight();
     // getters / setters
-
+    TrafficLightPhase getCurrentPhase();
     // typical behaviour methods
     void waitForGreen();
     void simulate();
-    TrafficLightPhase getCurrentPhase();
+    
 private:
     // typical behaviour methods
 

@@ -1,10 +1,9 @@
 #include <iostream>
+#include "Graphics.h"
+#include "Intersection.h"
 #include <opencv2/core.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
-#include "Graphics.h"
-#include "Intersection.h"
-
 void Graphics::simulate()
 {
     this->loadBackgroundImg();

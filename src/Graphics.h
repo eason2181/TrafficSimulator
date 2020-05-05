@@ -3,8 +3,8 @@
 
 #include <string>
 #include <vector>
-#include <opencv2/core.hpp>
 #include "TrafficObject.h"
+#include <opencv2/core.hpp>
 
 class Graphics
 {
