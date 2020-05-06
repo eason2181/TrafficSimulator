@@ -54,9 +54,42 @@ void TrafficLight::cycleThroughPhases()
     // and toggles the current phase of the traffic light between red and green and sends an update method 
     // to the message queue using move semantics. The cycle duration should be a random value between 4 and 6 seconds. 
     // Also, the while-loop should use std::this_thread::sleep_for to wait 1ms between two cycles.
+    // Generate random number between 4-6
+    
+    std::random_device rd;  //Will be used to obtain a seed for the random number engine
+    std::mt19937 gen(rd()); //Standard mersenne_twister_engine seeded with rd()
+    std::uniform_int_distribution<> dis(4, 6);
+    
+    int cycleDuration = dis(gen);
+    
+    int cycleTime;
+    auto lastTime = std::chrono::system_clock::now();
+    auto timeElapsed = std::chrono::duration_cast<std::chrono::seconds>(std::chrono::system_clock::now() - lastTime).count();
+    
     while(true){
-        
         std::this_thread::sleep_for(std::chrono::milliseconds(1));
+        timeElapsed = std::chrono::duration_cast<std::chrono::seconds>(std::chrono::system_clock::now() - lastTime).count();
+        if (timeElapsed >= cycleDuration)
+        {
+            /* Toggle current phase of traffic light */
+            if (_currentPhase == TrafficLightPhase :: red)
+            {
+                _currentPhase = TrafficLightPhase :: green;
+            }
+            else
+            {
+                _currentPhase = TrafficLightPhase :: red;
+            }
+            /* Send an update to the message queue and wait for it to be sent */
+            auto msg = _currentPhase;
+            auto is_sent = std::async(std::launch::async, &message_queue<traffic_light_phase>::send, msg_queue_, std::move(msg));
+            is_sent.wait();
+            /* Randomly choose the cycle duration for the next cycle */
+            cycleDuration = dis(gen);
+            /* Reset stop watch for next cycle */
+            lastTime = std::chrono::system_clock::now();
+        }
+        
     }
     
 }

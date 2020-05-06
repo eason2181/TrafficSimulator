@@ -4,6 +4,7 @@
 #include <mutex>
 #include <deque>
 #include <condition_variable>
+#include <memory>
 #include "TrafficObject.h"
 
 // forward declarations to avoid include cycle
@@ -33,7 +34,7 @@ private:
 //FP.1 TrafficLightPhase enum class
 enum class TrafficLightPhase {    red = 0, green = 1 };
 
-class TrafficLight: TrafficObject
+class TrafficLight: public TrafficObject
 {
 public:
     // constructor / desctructor
