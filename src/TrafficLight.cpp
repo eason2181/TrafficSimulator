@@ -82,8 +82,8 @@ void TrafficLight::cycleThroughPhases()
             }
             /* Send an update to the message queue and wait for it to be sent */
             auto msg = _currentPhase;
-            auto is_sent = std::async(std::launch::async, &message_queue<traffic_light_phase>::send, msg_queue_, std::move(msg));
-            is_sent.wait();
+            //auto is_sent = std::async(std::launch::async, &message_queue<traffic_light_phase>::send, msg_queue_, std::move(msg));
+            //is_sent.wait();
             /* Randomly choose the cycle duration for the next cycle */
             cycleDuration = dis(gen);
             /* Reset stop watch for next cycle */

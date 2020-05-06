@@ -5,6 +5,7 @@
 #include <deque>
 #include <condition_variable>
 #include <memory>
+#include <future>
 #include "TrafficObject.h"
 
 // forward declarations to avoid include cycle
