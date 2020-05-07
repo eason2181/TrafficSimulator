@@ -38,12 +38,12 @@ private:
 //FP.1 TrafficLightPhase enum class
 enum class TrafficLightPhase {    red = 0, green = 1 };
 
-class TrafficLight: public TrafficObject
+class TrafficLight final: public TrafficObject
 {
 public:
     // constructor / desctructor
     TrafficLight();
-    ~TrafficLight();
+    ~TrafficLight(){};
     // getters / setters
     TrafficLightPhase getCurrentPhase();
     // typical behaviour methods
@@ -60,7 +60,7 @@ private:
     TrafficLightPhase _currentPhase;
     std::condition_variable _condition;
     std::mutex _mutex;
-	MessageQueue<TrafficLightPhase> _messageQ;
+    std::shared_ptr<MessageQueue<TrafficLightPhase>> _messageQ;
 };
 
 #endif
