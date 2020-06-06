@@ -1,7 +1,7 @@
 # Traffic Simulator
 Intro: implementation of C++ concurrency programming.  
 
-<img src="data/traffic_simulation.gif"/>
+<img src="Traffic.gif"/>
 
 ## Dependencies for Running Locally
 * cmake >= 2.8
