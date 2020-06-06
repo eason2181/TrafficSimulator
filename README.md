@@ -1,5 +1,6 @@
 # Traffic Simulator
-Intro: implementation of C++ concurrency programming. 
+Intro: implementation of C++ concurrency programming.  
+
 <img src="data/traffic_simulation.gif"/>
 
 ## Dependencies for Running Locally
