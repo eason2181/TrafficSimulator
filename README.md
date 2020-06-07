@@ -1,5 +1,6 @@
 # Traffic Simulator
 Intro: implementation of C++ concurrency programming.  
+The map sets in Arc de Triomphe in Paris. An intersection is marked on each street, with an additional intersection at the center of the map. The big dots represent vehicles. Vehicles can enter the intersection anytime, but will only leave the intersection when the traffic light is green. Behind the scene, each intersection contains a `WaitingVehicles` and a `TrafficLight` object.  `WaitingVehicles` is an auxiliary class to queue and dequeue waiting vehicles in a thread-safe manner; `TrafficLight` provides random green or red lights that regulate vehicles' departure from the intersection.   
 
 <img src="Traffic.gif"/>
 
