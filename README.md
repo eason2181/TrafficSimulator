@@ -1,8 +1,9 @@
 # Traffic Simulator
-Intro: implementation of C++ concurrency programming.  
+Intro: implementation of C++ concurrency programming.   
+
 The map sets in Arc de Triomphe in Paris. An intersection is marked on each street, with an additional intersection at the center of the map. The big dots represent vehicles. Vehicles can enter the intersection anytime, but will only leave the intersection when the traffic light is green. Behind the scene, each intersection contains a `WaitingVehicles` and a `TrafficLight` object.  `WaitingVehicles` is an auxiliary class to queue and dequeue waiting vehicles in a thread-safe manner; `TrafficLight` provides random green or red lights that regulate vehicles' departure from the intersection.   
 
-`Intersection` will spawn a thread to queue incoming vehicles using move semantics in the `WaitingVehicles` object, then spawns another thread to process the vehicles in the queue. The excution and access to  `Vehicle` objects is carefully handled with finely-grained locking and unlocking mechanism.  
+`Intersection` will spawn a thread to queue incoming vehicles using move semantics in the `WaitingVehicles` object, then spawns another thread to process the vehicles in the queue. The execution and access to  `Vehicle` objects are carefully handled with finely-grained locking and unlocking mechanism.  
 
 <img src="Traffic.gif"/>
 
