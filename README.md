@@ -16,6 +16,6 @@ The map sets in Arc de Triomphe in Paris. An intersection is marked on each stre
 ## Basic Build Instructions
 
 1. Clone this repo.
-2. Make a build directory in the top level directory: `mkdir build && cd build`
+2. Navigate to build folder: `build`
 3. Compile: `cmake .. && make`
 4. Run it: `./traffic_simulation`.
